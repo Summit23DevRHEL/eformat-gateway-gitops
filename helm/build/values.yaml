@@ -1,0 +1,15 @@
+app:
+  name: poi-gateway-app
+  namespace: eformat
+  cluster: .apps.summit23-dr.w6gk.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23DevRHEL/eformat-gateway
+  org: Summit23DevRHEL
+  name: eformat-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: efomat/poi-gateway-app
+  tag: latest
