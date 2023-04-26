@@ -11,5 +11,5 @@ git:
 
 image:
   host: image-registry.openshift-image-registry.svc:5000
-  name: efomat/poi-gateway-app
+  name: eformat/poi-gateway-app
   tag: latest
