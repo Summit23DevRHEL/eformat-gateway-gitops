@@ -14,7 +14,7 @@ namespace:
 replicaCount: 1
 
 image:
-  repository: image-registry.openshift-image-registry.svc:5000/efomat/poi-gateway-app
+  repository: image-registry.openshift-image-registry.svc:5000/eformat/poi-gateway-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
